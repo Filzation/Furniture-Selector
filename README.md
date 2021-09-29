@@ -1,2 +1,2 @@
 # Furniture-Selector
-Link:
+Link: https://filzation.github.io/Furniture-Selector/
