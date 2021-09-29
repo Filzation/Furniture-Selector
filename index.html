@@ -168,8 +168,10 @@
 
 				options.domOverlay = { root: document.getElementById('content')};
 
-				document.body.appendChild( ARButton.createButton(renderer, options));
-
+				const button = ARButton.createButton(renderer);
+				//document.body.appendChild( ARButton.createButton(renderer, options));
+				document.body.appendChild(button);
+				console.log(button);
 				//document.body.appendChild( ARButton.createButton( renderer, { requiredFeatures: [ 'hit-test' ] } ) );
 
 				//
